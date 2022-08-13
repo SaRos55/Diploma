@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кулинарная книга</string>
+    <string name="recipes">Рецепты</string>
+    <string name="favorites">Избранное</string>
+    <string name="no_recipes">В вашей книге пока нет рецептов\n
+        или они все отфильтрованы.\n
+        Включите нужные фильтры или\n
+        создайте рецепт.</string>
+    <string name="no_favorites">У вас пока нет избранных рецептов.\nВы можете выбрать их в списке рецептов.</string>
+    <string name="remove">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="add_recipe">Добавить рецепт</string>
+    <string name="post_save">Сохранить рецепт</string>
+    <string name="european">Европейская</string>
+    <string name="asian">Азиатская</string>
+    <string name="pan_asian">Паназиатская</string>
+    <string name="eastern">Восточная</string>
+    <string name="american">Американская</string>
+    <string name="russian">Русская</string>
+    <string name="mediterranean">Средиземноморская</string>
+    <string name="category">Категория</string>
+    <string name="title">Название</string>
+    <string name="author">Автор</string>
+    <string name="filters">Фильтры</string>
+    <string name="recipe_text">Рецепт:</string>
+    <string name="filter_text">Название рецепта</string>
+</resources>

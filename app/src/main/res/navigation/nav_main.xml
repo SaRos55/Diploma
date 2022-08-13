@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/recipes_item">
+
+    <fragment
+        android:id="@+id/favorite_item"
+        android:name="com.rsalomatin.cookbookbyrost.fragments.FavoriteFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favorite_item_to_recipeEditFragment"
+            app:destination="@id/recipeEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recipes_item"
+        android:name="com.rsalomatin.cookbookbyrost.fragments.RecipesFragment"
+        android:label="RecipesFragment"
+        tools:layout="@layout/fragment_recipes">
+        <action
+            android:id="@+id/action_recipes_item_to_recipeEditFragment"
+            app:destination="@id/recipeEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeEditFragment"
+        android:name="com.rsalomatin.cookbookbyrost.fragments.RecipeEditFragment"
+        android:label="RecipeEditFragment"
+        tools:layout="@layout/fragment_edit_recipe"/>
+    <fragment
+        android:id="@+id/recipes_filters"
+        android:name="com.rsalomatin.cookbookbyrost.fragments.RecipesFiltersFragment"
+        android:label="RecipesFiltersFragment"
+        tools:layout="@layout/fragment_filters"/>
+
+</navigation>

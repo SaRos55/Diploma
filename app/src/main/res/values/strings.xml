@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Cookbook by Rost</string>
+    <string name="recipes">Recipes</string>
+    <string name="favorites">Favorites</string>
+    <string name="no_recipes">no recipes…</string>
+    <string name="no_favorites">no favorites…</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="add_recipe">Add recipe</string>
+    <string name="post_save">Save recipe</string>
+    <string name="european">European</string>
+    <string name="asian">Аsian</string>
+    <string name="pan_asian">Pan asian</string>
+    <string name="eastern">Eastern</string>
+    <string name="american">American</string>
+    <string name="russian">Russian</string>
+    <string name="mediterranean">Mediterranean</string>
+    <string name="category">Category</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="filters">Filters</string>
+    <string name="recipe_text">Recipe:</string>
+    <string name="filter_text">Search</string>
 </resources>
